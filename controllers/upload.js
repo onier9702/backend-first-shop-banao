@@ -93,7 +93,6 @@ const handleImageCloudinary = async(req, res = response) => {
         };
 
         const prod = await Product.findById(id)
-                                    .populate('user', 'name')
                                     .populate('category', 'name');
 
         res.status(200).json({
