@@ -56,8 +56,7 @@ const searchCategoryOnDB = async( terminus = '', res = response) => {
     const regex = new RegExp(terminus, 'i'); 
 
     // here terminus is a name
-    const categories = await Category.find({ name: regex, state: true })
-                                        .populate('user', 'name');
+    const categories = await Category.find({ name: regex, state: true });
                                                 
 
     res.json({
