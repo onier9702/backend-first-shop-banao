@@ -34,7 +34,7 @@ const ProductSchema = Schema({
         ref: 'Category',
         required: true
     },
-    description: { type: String },
+    desc: { type: String },
     available: { type: Boolean, default: true },
     amount: {
         type: Number,
