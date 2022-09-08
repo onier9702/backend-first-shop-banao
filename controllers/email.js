@@ -27,7 +27,7 @@ const emailController = (req, res = response) => {
             to: 'onier0217@gmail.com', // List of recipients
             subject: 'Solicitud de compra', // Subject line
             text: `Cliente: ${name} ${lastname}` , // Plain text body
-            html: `<h4>Celular: ${mobile} \n <p>Carrito ${cartString}</p> \n Address: ${address} </h4>`, // html body
+            html: `<h4>Celular: ${mobile} \n <p>Cliente: ${name} ${lastname} </p> \n <p>Carrito: ${cartString}</p> \n Direccion: ${address} </h4>`, // html body
         };
         
         transport.sendMail(mailOptions, function(err, info) {
