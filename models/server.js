@@ -1,6 +1,7 @@
 
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const fileUpload = require('express-fileupload');
 
 const { dbConnection } = require('../db/config');
@@ -40,6 +41,14 @@ class Server {
         
         // CORS
         this.app.use( cors() );
+
+        // Public Directory
+        this.app.use(express.static('public')); // this is the route / 
+
+        // Handling other routes to avoid error when page is reload and get blank page
+        // this.app.get('*', ( req, res ) => {
+        //     res.sendFile( path.resolve( __dirname, 'public/index.html' ) )
+        // });
         
         this.app.use(express.json()); // any info on Body will be parse and transform to JSON
 
@@ -60,6 +69,8 @@ class Server {
         this.app.use( this.paths.search, require('../routes/search') );
         this.app.use( this.paths.upload, require('../routes/uploads') );
         this.app.use( this.paths.email, require('../routes/email') );
+
+        
 
     }
 

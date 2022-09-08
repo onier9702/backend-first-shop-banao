@@ -24,7 +24,7 @@ const emailController = (req, res = response) => {
         
         const mailOptions = {
             from: 'onier0217@gmail.com', // Sender address
-            to: 'onier0217@gmail.com', // List of recipients
+            to: 'rolyzalez95@gmail.com', // List of recipients
             subject: 'Solicitud de compra', // Subject line
             text: `Cliente: ${name} ${lastname}` , // Plain text body
             html: `<h4>Celular: ${mobile} \n <p>Cliente: ${name} ${lastname} </p> \n <p>Carrito: ${cartString}</p> \n Direccion: ${address} </h4>`, // html body
