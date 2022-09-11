@@ -1,0 +1,73 @@
+
+{
+    "app": {
+
+        "home" : {
+            "search": {
+                "h1": "Recherche"
+            },
+            "main": {
+                "input": "Rechercher un produit...",
+                "span": "agrégat",
+                "button": "Monter dans le panier"
+            },
+            "footer": {
+                "contactUs": "Nous contacter",
+                "developer": "Développeur",
+                "frecuent-questions": "Questions-Fréquentes"
+            }
+        },
+        "cart" : {
+            "h1": "Mes Courses",
+            "span-info": "Vous devez ajouter un produit au panier !!!",
+            "button-unmount": "Démonter",
+            "button-request": "Demande d'achat",
+            "form-request": {
+                "h1": "Demande d'achat",
+                "note": "UTILISATION: ",
+                "info-text": "Les commandes arrivent en moins de 24h, du moins s'il ne s'agit pas d'une commune éloignée !!!",
+                "label-name": "Nom",
+                "label-lastname": "Noms de famille",
+                "label-mobile": "Téléphone portable",
+                "label-address": "Adresse de réception",
+                "span-name" : "le nom est requis",
+                "span-lastname" : "vous devez définir le format correctement, Ahem: Hernandez Perez",
+                "span-mobile" : "mauvais format de téléphone portable",
+                "span-address" : "Vous devez nous envoyer l'adresse de réception",
+                "button-send" : "Soumettre l'achat"
+            }
+        },
+        "shared" : {
+            "navbar": {
+                "home": "Début",
+                "categories": "Catégories",
+                "login": "Commencer la session",
+                "register": "S'inscrire",
+                "profile": "Mon Profil"
+            },
+            "language": {
+                "title": "Langage"
+            }
+        },
+        "categories" : {
+            "h1": "Catégories",
+            "input": "Catégorie de recherche...",
+            "h3": "Catégories trouvées",
+            "span": "Toutes"
+        },
+        "footer": {
+            "contact" : {
+                "h1": "Nous contacter"
+            },
+            "developer" : {
+                "h1": "Développeur"
+            },
+            "frecuent-questions" : {
+                "h1": "Questions Fréquentes"
+            }
+        }
+
+    
+
+    }
+}

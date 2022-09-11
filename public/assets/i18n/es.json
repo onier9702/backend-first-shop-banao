@@ -1,0 +1,73 @@
+
+{
+    "app": {
+
+        "home" : {
+            "search": {
+                "h1": "Busqueda"
+            },
+            "main": {
+                "input": "Buscar Producto...",
+                "span": "agregado",
+                "button": "Montar en Carrito"
+            },
+            "footer": {
+                "contactUs": "Contactarnos",
+                "developer": "Desarrollador",
+                "frecuent-questions": "Preguntas-Frecuentes"
+            }
+        },
+        "cart" : {
+            "h1": "Mis Compras",
+            "span-info": "Debes agregar algun producto al carrito !!!",
+            "button-unmount": "Desmontar",
+            "button-request": "Solicitar Compra",
+            "form-request": {
+                "h1": "Solicitud de Compra",
+                "note": "NOTA: ",
+                "info-text": "Los pedidos llegan en menos de 24h, al menos si no es un municipio lejos !!!",
+                "label-name": "Nombre",
+                "label-lastname": "Apellidos",
+                "label-mobile": "Celular",
+                "label-address": "Direccion de Recibo",
+                "span-name" : "nombre es requerido",
+                "span-lastname" : "debes de establecer correctamente el formato, Ejem: Hernandez Perez",
+                "span-mobile" : "formato de celular incorrecto",
+                "span-address" : "debes de enviarnos la direccion de recibo",
+                "button-send" : "Enviar Compra"
+            }
+        },
+        "shared" : {
+            "navbar": {
+                "home": "Inicio",
+                "categories": "Categorias",
+                "login": "Iniciar Sesion",
+                "register": "Registrarme",
+                "profile": "Mi Perfil"
+            },
+            "language": {
+                "title": "Idioma"
+            }
+        },
+        "categories" : {
+            "h1": "Categorias",
+            "input": "Buscar Categoria...",
+            "h3": "Categorias Encontradas",
+            "span": "Todas"
+        },
+        "footer": {
+            "contact" : {
+                "h1": "Contactarnos"
+            },
+            "developer" : {
+                "h1": "Desarrollador"
+            },
+            "frecuent-questions" : {
+                "h1": "Preguntas Frecuentes"
+            }
+        }
+
+    
+
+    }
+}

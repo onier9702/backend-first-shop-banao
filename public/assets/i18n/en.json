@@ -1,0 +1,73 @@
+
+{
+    "app": {
+
+        "home" : {
+            "search" : {
+                "h1": "Search"
+            },
+            "main": {
+                "input": "Search Product...",
+                "span": "added",
+                "button": "Mount in Cart"
+            },
+            "footer": {
+                "contactUs": "Contact",
+                "developer": "Developer",
+                "frecuent-questions": "Frecuent-Questions"
+            }
+        },
+        "cart" : {
+            "h1": "My Shopping",
+            "span-info": "You must add a product to your cart !!!",
+            "button-unmount": "Unmount",
+            "button-request": "Request Purchase",
+            "form-request": {
+                "h1": "Purchase Request",
+                "note": "NOTE: ",
+                "info-text": "Shippings are delivered in less than 24 hours, at least if it is not a place far away !!!",
+                "label-name": "Name",
+                "label-lastname": "Lastname",
+                "label-mobile": "Mobile",
+                "label-address": "Receipt Address",
+                "span-name" : "name is required",
+                "span-lastname" : "you must type it correctly, E.g: Hernandez Perez",
+                "span-mobile" : "mobile format incorrect",
+                "span-address" : "you must send us the receipt address",
+                "button-send" : "Send Purchase"
+            }
+        },
+        "shared" : {
+            "navbar": {
+                "home": "Home",
+                "categories": "Categories",
+                "login": "Login",
+                "register": "Register",
+                "profile": "My Profile"
+            },
+            "language": {
+                "title": "Language"
+            }
+        },
+        "categories" : {
+            "h1": "Categories",
+            "input": "Search Category...",
+            "h3": "Founded Categories",
+            "span": "All"
+        },
+        "footer": {
+            "contact" : {
+                "h1": "Contact"
+            },
+            "developer" : {
+                "h1": "Developer"
+            },
+            "frecuent-questions" : {
+                "h1": "Frecuent Questions"
+            }
+        }
+
+    
+
+    }
+}
